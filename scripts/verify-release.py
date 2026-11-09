@@ -16,7 +16,8 @@ def verify(tag, directory=root):
     manifest = json.loads((directory / "manifest.json").read_text(encoding="utf-8"))
     if tag != meta["version"] or tag != manifest["version"] or manifest["id"] != "anchor-recall" or manifest.get("isDesktopOnly") is not True:
         raise ValueError("Release tag, manifest and verified build do not match")
-    expected = {"main.js", "manifest.json", "styles.css", "LICENSE", "THIRD_PARTY_NOTICES.md", "TESTER-ru.md", "AnchorRecall-0.1.0.zip"}
+    archive_name = f"AnchorRecall-{tag}.zip"
+    expected = {"main.js", "manifest.json", "styles.css", "LICENSE", "THIRD_PARTY_NOTICES.md", "TESTER-ru.md", archive_name}
     if set(meta["sha256"]) != expected:
         raise ValueError("Unexpected release payload")
     for name, digest in meta["sha256"].items():
@@ -24,13 +25,13 @@ def verify(tag, directory=root):
         if path.is_symlink() or sha256(path.read_bytes()).hexdigest() != digest:
             raise ValueError("Frozen asset differs: " + name)
     expected_zip = {"anchor-recall/main.js", "anchor-recall/manifest.json", "anchor-recall/styles.css", "LICENSE", "THIRD_PARTY_NOTICES.md", "README.md", "TESTER-ru.md", "BUILD.json"}
-    with zipfile.ZipFile(directory / "AnchorRecall-0.1.0.zip") as archive:
+    with zipfile.ZipFile(directory / archive_name) as archive:
         if len(archive.namelist()) != len(expected_zip) or set(archive.namelist()) != expected_zip or archive.testzip() is not None:
             raise ValueError("Unexpected or damaged archive")
         original = json.loads(archive.read("BUILD.json"))
         if original["buildId"] != meta["buildId"]:
             raise ValueError("Archive build identifier differs")
-        for name in expected - {"AnchorRecall-0.1.0.zip"}:
+        for name in expected - {archive_name}:
             key = "anchor-recall/" + name if name in {"main.js", "manifest.json", "styles.css"} else name
             if archive.read(key) != (directory / name).read_bytes():
                 raise ValueError("Standalone asset differs from archive: " + name)

@@ -1,6 +1,6 @@
 {
-  "version": "0.1.0",
-  "buildId": "friend-beta-2026-11-09-d01a05ced0d4",
+  "version": "0.7.8",
+  "buildId": "beta-0.7.8-2026-11-09-d01a05ced0d4",
   "minAppVersion": "1.13.7",
   "verification": {
     "command": "pnpm verify",
@@ -11,11 +11,11 @@
   },
   "sha256": {
     "main.js": "d01a05ced0d4705add4af18f8336fc474159d3e526317f46cce2472e8d947c6a",
-    "manifest.json": "22037591bad7b082ccaa65d9c76e5905dfabdf947abcf052851d4b4adf810159",
+    "manifest.json": "c9e343b7b05d1ed0ca7664307e6fb8604b331a5e12c6fc19190f0c8eccb875ef",
     "styles.css": "90863eb6d1120bd729b7c9070600c98ad2d17b30300612757a2891b698366413",
     "LICENSE": "5ef5b4fce4aab48b68292a1a46b4cafbcff0ed338b286d6abb31ca9bc59111da",
     "THIRD_PARTY_NOTICES.md": "47fef11becb3b4c4b796ef2beedb6d2e216a139c762639902077cefb5e81f5df",
-    "TESTER-ru.md": "87d7d8506700271e3eb12dc3d6dfc556541416a1111ada3e7f66e7d822a3d990",
-    "AnchorRecall-0.1.0.zip": "ff171afab30301c5274684e22798fc012884197dbcb346fc97ed3f4d251d24e5"
+    "TESTER-ru.md": "4f6707185d7b5f4443f0dd6b7a32821f22b388e75ef77325c4f677997ff29b0e",
+    "AnchorRecall-0.7.8.zip": "cef7e0c22d74ad138a34e548d3d7be2d10e24fb1001470747734cda457105bdc"
   }
 }

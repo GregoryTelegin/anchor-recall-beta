@@ -39,4 +39,4 @@ jobs:
           --title "Anchor Recall $RELEASE_TAG — beta"
           --notes-file release-notes.md
           main.js manifest.json styles.css LICENSE THIRD_PARTY_NOTICES.md
-          TESTER-ru.md BUILD.json SHA256SUMS.txt AnchorRecall-0.1.0.zip
+          TESTER-ru.md BUILD.json SHA256SUMS.txt "AnchorRecall-$RELEASE_TAG.zip"
