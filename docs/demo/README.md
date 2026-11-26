@@ -1,247 +1,117 @@
 # Демо Anchor Recall
 
-Пройдите слайды по порядку. Раскройте нужный пункт. Если анимация закончилась, откройте её отдельно, чтобы посмотреть сначала. Для настройки интеграций рядом с видео есть текстовые инструкции.
+Все 24 слайда открыты на этой странице. Листайте вниз или выберите номер. Нажмите на анимацию, чтобы открыть её отдельно.
+
+[01](#слайд-01) · [02](#слайд-02) · [03](#слайд-03) · [04](#слайд-04) · [05](#слайд-05) · [06](#слайд-06) · [07](#слайд-07) · [08](#слайд-08) · [09](#слайд-09) · [10](#слайд-10) · [11](#слайд-11) · [12](#слайд-12) · [13](#слайд-13) · [14](#слайд-14) · [15](#слайд-15) · [16](#слайд-16) · [17](#слайд-17) · [18](#слайд-18) · [19](#слайд-19) · [20](#слайд-20) · [21](#слайд-21) · [22](#слайд-22) · [23](#слайд-23) · [24](#слайд-24)
+
+[Telegram](#telegram) · [Google Calendar](#google-calendar)
 
 ## Основная презентация
 
-<details>
-<summary>Слайд 01</summary>
+### Слайд 01
 
-![Anchor Recall: слайд 01](01.webp)
+[![Anchor Recall: слайд 01](01.webp)](01.webp)
 
-[Открыть анимацию отдельно](01.webp)
+### Слайд 02
 
-</details>
+[![Anchor Recall: слайд 02](02.webp)](02.webp)
 
-<details>
-<summary>Слайд 02</summary>
+### Слайд 03
 
-![Anchor Recall: слайд 02](02.webp)
+[![Anchor Recall: слайд 03](03.webp)](03.webp)
 
-[Открыть анимацию отдельно](02.webp)
+### Слайд 04
 
-</details>
+[![Anchor Recall: слайд 04](04.webp)](04.webp)
 
-<details>
-<summary>Слайд 03</summary>
+### Слайд 05
 
-![Anchor Recall: слайд 03](03.webp)
+[![Anchor Recall: слайд 05](05.webp)](05.webp)
 
-[Открыть анимацию отдельно](03.webp)
+### Слайд 06
 
-</details>
+[![Anchor Recall: слайд 06](06.webp)](06.webp)
 
-<details>
-<summary>Слайд 04</summary>
+### Слайд 07
 
-![Anchor Recall: слайд 04](04.webp)
+[![Anchor Recall: слайд 07](07.webp)](07.webp)
 
-[Открыть анимацию отдельно](04.webp)
+### Слайд 08
 
-</details>
+[![Anchor Recall: слайд 08](08.webp)](08.webp)
 
-<details>
-<summary>Слайд 05</summary>
+### Слайд 09
 
-![Anchor Recall: слайд 05](05.webp)
+[![Anchor Recall: слайд 09](09.webp)](09.webp)
 
-[Открыть анимацию отдельно](05.webp)
+### Слайд 10
 
-</details>
+[![Anchor Recall: слайд 10](10.webp)](10.webp)
 
-<details>
-<summary>Слайд 06</summary>
+### Слайд 11
 
-![Anchor Recall: слайд 06](06.webp)
+[![Anchor Recall: слайд 11](11.webp)](11.webp)
 
-[Открыть анимацию отдельно](06.webp)
+### Слайд 12
 
-</details>
+[![Anchor Recall: слайд 12](12.webp)](12.webp)
 
-<details>
-<summary>Слайд 07</summary>
+### Слайд 13
 
-![Anchor Recall: слайд 07](07.webp)
+[![Anchor Recall: слайд 13](13.webp)](13.webp)
 
-[Открыть анимацию отдельно](07.webp)
+### Слайд 14
 
-</details>
+[![Anchor Recall: слайд 14](14.webp)](14.webp)
 
-<details>
-<summary>Слайд 08</summary>
+### Слайд 15
 
-![Anchor Recall: слайд 08](08.webp)
+[![Anchor Recall: слайд 15](15.webp)](15.webp)
 
-[Открыть анимацию отдельно](08.webp)
+### Слайд 16
 
-</details>
+[![Anchor Recall: слайд 16](16.webp)](16.webp)
 
-<details>
-<summary>Слайд 09</summary>
+### Слайд 17
 
-![Anchor Recall: слайд 09](09.webp)
+[![Anchor Recall: слайд 17](17.webp)](17.webp)
 
-[Открыть анимацию отдельно](09.webp)
+### Слайд 18
 
-</details>
+[![Anchor Recall: слайд 18](18.webp)](18.webp)
 
-<details>
-<summary>Слайд 10</summary>
+### Слайд 19
 
-![Anchor Recall: слайд 10](10.webp)
+[![Anchor Recall: слайд 19](19.webp)](19.webp)
 
-[Открыть анимацию отдельно](10.webp)
+### Слайд 20
 
-</details>
+[![Anchor Recall: слайд 20](20.webp)](20.webp)
 
-<details>
-<summary>Слайд 11</summary>
+### Слайд 21
 
-![Anchor Recall: слайд 11](11.webp)
+[![Anchor Recall: слайд 21](21.webp)](21.webp)
 
-[Открыть анимацию отдельно](11.webp)
+### Слайд 22
 
-</details>
+[![Anchor Recall: слайд 22](22.webp)](22.webp)
 
-<details>
-<summary>Слайд 12</summary>
+### Слайд 23
 
-![Anchor Recall: слайд 12](12.webp)
+[![Anchor Recall: слайд 23](23.webp)](23.webp)
 
-[Открыть анимацию отдельно](12.webp)
+### Слайд 24
 
-</details>
-
-<details>
-<summary>Слайд 13</summary>
-
-![Anchor Recall: слайд 13](13.webp)
-
-[Открыть анимацию отдельно](13.webp)
-
-</details>
-
-<details>
-<summary>Слайд 14</summary>
-
-![Anchor Recall: слайд 14](14.webp)
-
-[Открыть анимацию отдельно](14.webp)
-
-</details>
-
-<details>
-<summary>Слайд 15</summary>
-
-![Anchor Recall: слайд 15](15.webp)
-
-[Открыть анимацию отдельно](15.webp)
-
-</details>
-
-<details>
-<summary>Слайд 16</summary>
-
-![Anchor Recall: слайд 16](16.webp)
-
-[Открыть анимацию отдельно](16.webp)
-
-</details>
-
-<details>
-<summary>Слайд 17</summary>
-
-![Anchor Recall: слайд 17](17.webp)
-
-[Открыть анимацию отдельно](17.webp)
-
-</details>
-
-<details>
-<summary>Слайд 18</summary>
-
-![Anchor Recall: слайд 18](18.webp)
-
-[Открыть анимацию отдельно](18.webp)
-
-</details>
-
-<details>
-<summary>Слайд 19</summary>
-
-![Anchor Recall: слайд 19](19.webp)
-
-[Открыть анимацию отдельно](19.webp)
-
-</details>
-
-<details>
-<summary>Слайд 20</summary>
-
-![Anchor Recall: слайд 20](20.webp)
-
-[Открыть анимацию отдельно](20.webp)
-
-</details>
-
-<details>
-<summary>Слайд 21</summary>
-
-![Anchor Recall: слайд 21](21.webp)
-
-[Открыть анимацию отдельно](21.webp)
-
-</details>
-
-<details>
-<summary>Слайд 22</summary>
-
-![Anchor Recall: слайд 22](22.webp)
-
-[Открыть анимацию отдельно](22.webp)
-
-</details>
-
-<details>
-<summary>Слайд 23</summary>
-
-![Anchor Recall: слайд 23](23.webp)
-
-[Открыть анимацию отдельно](23.webp)
-
-</details>
-
-<details>
-<summary>Слайд 24</summary>
-
-![Anchor Recall: слайд 24](24.webp)
-
-[Открыть анимацию отдельно](24.webp)
-
-</details>
+[![Anchor Recall: слайд 24](24.webp)](24.webp)
 
 ## Telegram
 
 [Пошаговая инструкция](telegram.md)
 
-<details>
-<summary>Показать подключение</summary>
-
-![Подключение Telegram в Anchor Recall](telegram.webp)
-
-[Открыть анимацию отдельно](telegram.webp)
-
-</details>
+[![Подключение Telegram в Anchor Recall](telegram.webp)](telegram.webp)
 
 ## Google Calendar
 
 [Пошаговая инструкция](google-calendar.md)
 
-<details>
-<summary>Показать подключение</summary>
-
-![Подключение Google Calendar в Anchor Recall](google-calendar.webp)
-
-[Открыть анимацию отдельно](google-calendar.webp)
-
-</details>
+[![Подключение Google Calendar в Anchor Recall](google-calendar.webp)](google-calendar.webp)
