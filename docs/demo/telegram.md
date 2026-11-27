@@ -23,7 +23,7 @@ Telegram позволяет повторять выбранные карточк
 
 ### 3. Установите службу
 
-Возьмите полный серверный ZIP, совместимый с вашей версией плагина, и распакуйте его целиком в отдельную папку. Если Python 3 не установлен, установите пакет `python3`. Из папки с установщиком запустите:
+Скачайте [серверный ZIP 0.9.31](https://raw.githubusercontent.com/GregoryTelegin/anchor-recall-telegram/3499b0c5848609623997cef3bf65ab2de114b9f2/artifacts/AnchorRecall-Telegram-0.9.31.zip) из [репозитория Telegram-сервера](https://github.com/GregoryTelegin/anchor-recall-telegram) и распакуйте его целиком в отдельную папку. Если Python 3 не установлен, установите пакет `python3`. Из папки с установщиком запустите:
 
 ```sh
 sudo python3 install.py
