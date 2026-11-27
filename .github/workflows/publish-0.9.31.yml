@@ -1,0 +1,34 @@
+name: Publish Anchor Recall 0.9.31
+on:
+  push:
+    tags: ['0.9.31']
+permissions:
+  contents: read
+jobs:
+  publish:
+    if: github.repository == 'GregoryTelegin/anchor-recall-beta'
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    permissions:
+      contents: write
+    env:
+      GH_TOKEN: ${{ github.token }}
+      PACKAGE: AnchorRecall-0.9.31.zip
+      SHA: 3f7990ec131642dc2e83964029e47a36777693d8dab991a32a8ac7e41d9416da
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+      - name: Publish and verify the ZIP
+        shell: bash
+        run: |
+          printf '%s  %s\n' "$SHA" "$PACKAGE" | sha256sum -c -
+          gh release create 0.9.31 "$PACKAGE" --repo "$GITHUB_REPOSITORY" --verify-tag --prerelease --title 'Anchor Recall 0.9.31' --notes "Тестовая сборка для настольного Obsidian 1.13.7+. [Установка и демо](https://github.com/GregoryTelegin/anchor-recall-beta#демо). SHA-256: $SHA"
+          mkdir downloaded
+          gh release download 0.9.31 --repo "$GITHUB_REPOSITORY" --pattern "$PACKAGE" --dir downloaded
+          printf '%s  %s\n' "$SHA" "downloaded/$PACKAGE" | sha256sum -c -
+      - name: Remove only the superseded ZIP
+        shell: bash
+        run: |
+          gh release delete-asset 0.7.8 AnchorRecall-0.7.8.zip --repo "$GITHUB_REPOSITORY" --yes
+
